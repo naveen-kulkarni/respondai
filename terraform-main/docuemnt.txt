@@ -1,0 +1,24 @@
+Create a VPC and subnets with proper network security in place
+
+Create a VPC using Terraform with public and private subnets in different availability zones.
+Associate a route table with the public subnet that has a route to the internet gateway. 
+Associate a route table with the private subnet that has a route to the NAT gateway. Ensure proper network 
+security in place by defining security groups
+
+
+Deploy EC2 instances and configure them as web servers
+
+Launch EC2 instances using Terraform in the private subnets. 
+Install and configure the web server on each instance.
+Create an auto scaling group and associate it with the launch configuration. 
+Set up health checks for the instances.
+
+Deploy an RDS instance as the database backend
+Use ELB to balance traffic between the EC2 instances
+Use Auto Scaling to automatically adjust the number of EC2 instances based on demand
+Use Route 53 to route traffic to the ELB
+Use CloudWatch to monitor the performance of the web application
+Use S3 for file storage
+Use IAM to control access to AWS resources
+
+
